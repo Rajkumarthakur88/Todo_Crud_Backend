@@ -11,7 +11,7 @@ connectDB()
 
 // Get
 app.get('/', (req, res) => {
-    res.json({ msg: "Hello, Welcome to the Todo Api || Use the /todo endPoint to get the todo list ", })
+    res.json({ msg: "Hello, Welcome to the Todo Api || Use the /todo  EndPoint to get the todo list ", })
 })
 
 // Body Parser
